@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="header">
+
+    </header>
+    <main id="main" class="">
+        <section id="left" class="">
+            <form>
+                <div class="mb-2">
+                    <strong><i class="fa fa-filter mr-1" aria-hidden="true"></i>BỘ LỌC TÌM KIẾM</strong>
+                </div>
+                <div id="side-bar-category" class="sidebar-item">
+                    <div class="title">Theo danh mục</div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="category" id="cate-1" /> <label for="cate-1">Danh mục
+                                    1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category" id="cate-2" /> <label for="cate-2">Danh mục
+                                    2</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category" id="cate-3" /> <label for="cate-3">Danh mục
+                                    3</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category" id="cate-4" /> <label for="cate-4">Danh mục
+                                    4</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="side-bar-address" class="sidebar-item">
+                    <div class="title">Nơi bán</div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="address" id="address-1" /> <label for="address-1">Nơi bán
+                                    1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="address" id="address-2" /> <label for="address-2">Nơi bán
+                                    2</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="address" id="address-3" /> <label for="address-3">Nơi bán
+                                    3</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="address" id="address-4" /> <label for="address-4">Nơi bán
+                                    4</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="side-bar-express" class="sidebar-item">
+                    <div class="title">Đơn vị vấn chuyển</div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="express" id="express-1" /> <label for="express-1">Đơn vị
+                                    vấn
+                                    chuyển 1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="express" id="express-2" /> <label for="express-2">Đơn vị
+                                    vấn
+                                    chuyển 2</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="express" id="express-3" /> <label for="express-3">Đơn vị
+                                    vấn
+                                    chuyển 3</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="express" id="express-4" /> <label for="express-4">Đơn vị
+                                    vấn
+                                    chuyển 4</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="side-bar-price" class="sidebar-item">
+                    <div class="title mb-2">Khoảng giá</div>
+                    <div class="content">
+                        <input type="text" name="price-from" class="" placeholder="#TỪ" /> -- <input type="text"
+                            class="" name="price-to" placeholder="#ĐẾN" />
+                    </div>
+
+                    <div id="side-bar-submit" class="mt-3 mb-3">
+                        <button type="submit" class="btn btn-danger w-100 text-default">ÁP DỤNG</button>
+                    </div>
+                </div>
+
+            </form>
+
+        </section>
+        <section id="right" class="">
+            <div>Kết quả tìm kiếm cho từ khóa " <span class="product-name-search">sản phẩm random</span> "</div>
+
+            <div id="list-product">
+
+                <div class="product">
+                    <a href="#" class="text-none">
+                        <div class="product-image">
+                            <img src="https://cf.shopee.vn/file/7846e3bd6f112abb8539a25e20ea9915_tn"
+                                alt="https://cf.shopee.vn/file/7846e3bd6f112abb8539a25e20ea9915_tn" />
+                        </div>
+                        <div class="product-name">
+                            Ốp lưng iPhone XXXXXXX PRO asdas dwqd;l ám;ldmas;l
+                        </div>
+                        <div class="product-price">
+                            <sup>đ</sup>20.000
+                        </div>
+                        <div class="same-product">
+                            <a href="#">Tìm sản phẩm tương tự</a>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

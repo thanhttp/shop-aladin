@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue !important;
+}
+
+ul {
+  padding-inline-start: 0% !important;
+  padding-left: 0px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span:hover {
+  cursor: pointer;
+}
